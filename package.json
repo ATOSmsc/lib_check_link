@@ -1,6 +1,6 @@
 {
   "name": "lib-first-rep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lib para validacao de links",
   "main": "./cli.js",
   "type": "module",
