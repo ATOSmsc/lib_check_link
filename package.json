@@ -1,0 +1,34 @@
+{
+  "name": "lib-first-rep",
+  "version": "1.0.0",
+  "description": "lib para validacao de links",
+  "main": "./cli.js",
+  "type": "module",
+  "bin": {
+    "lib-first-rep": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest /src/cli.js",
+    "cli": "node ./src/cli.js",
+    "cli:valida": "node ./src/cli.js ./arquivos/texto.md --valida"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
+  },
+  "author": "Atos Cunha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ATOSmsc/lib_check_link/issues",
+    "email": "atosmsc@gmail.com"
+  },
+  "homepage": "https://github.com/ATOSmsc/lib_check_link",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
